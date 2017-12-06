@@ -1,8 +1,33 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Lobster', cursive;
 }
 
-* {
-  outline: 1px solid black;
+.navbar-nav {
+  font-size: 20px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2016/09/06/14/23/authentic-greek-1649223_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50%;
+}
+
+.padpanel {
+  min-height: 40%;
+}
+
+.card {
+  border-width: 5px;
+  min-width: 250px;
+  min-height: 200px;
+  margin: 50px 0;
+}
+
+footer {
+  height: 5%;
+  font-size: 24px;
 }
