@@ -20,10 +20,13 @@ html, body {
   min-height: 40%;
 }
 
-.cardperso {
-  border-width: 5px;
+.padpanel div {
   min-width: 250px;
   min-height: 200px;
+}
+
+.card {
+  border-width: 5px;
   margin: 50px 0;
 }
 
@@ -37,5 +40,9 @@ footer {
 }
 
 .list-group li {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.pagination {
+  color: white;
 }
