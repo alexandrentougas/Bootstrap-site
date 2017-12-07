@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <title>Restaurants</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top font-weight-bold">
-    <a class="navbar-brand" href="#"><span class="display-4 font-weight-bold">Chez Alex</span></a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-info font-weight-bold px-5">
+    <a class="navbar-brand" href="#"><span class="h1 font-weight-bold">Chez Alex</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link ml-3 mr-3" href="index.html">Accueil</a>
-        <a class="nav-item nav-link ml-3 mr-3" href="carte.html">Carte</a>
-        <a class="nav-item nav-link ml-3 mr-3" href="photos.html">Photos</a>
-        <a class="nav-item nav-link active ml-3 mr-3" href="restaurants.html">Restaurants</a>
-        <a class="nav-item nav-link ml-3 mr-3" href="contact.html">Contact</a>
+        <a class="nav-item nav-link active mx-3" href="index.html">Accueil</a>
+        <a class="nav-item nav-link mx-3" href="carte.html">Carte</a>
+        <a class="nav-item nav-link mx-3" href="photos.html">Photos</a>
+        <a class="nav-item nav-link mx-3" href="restaurants.html">Restaurants</a>
+        <a class="nav-item nav-link mx-3" href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
 
+  <div class="bg-info padpanel row align-items-center justify-content-around">
+
+    <div class="col-8 col-md-4 card text-center bg-info text-white border-white rounded">
+      <div class="card-body">
+        <h1 class="card-title">Saint-Gilles</h1>
+        <p>Rue Vanderschrick 65, 1060 Bruxelles</p>
+      </div>
+    </div>
+
+
+    <div class="col-8 col-md-4 card text-center bg-info text-white border-white rounded">
+      <div class="card-body">
+        <h1 class="card-title">Ixelles</h1>
+        <p> Rue du Bailli 64, 1050 Bruxelles</p>
+      </div>
+    </div>
+
+  </div>
+
 </body>
+
+<footer class="bg-dark text-white d-flex justify-content-center align-items-center">&#169;Alex</footer>
+
 
 </html>
