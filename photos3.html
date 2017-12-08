@@ -17,7 +17,7 @@
 <body class="bg-info">
 
   <nav class="navbar navbar-expand-md navbar-dark bg-info font-weight-bold px-5">
-    <a class="navbar-brand" href="#"><span class="h1 font-weight-bold">Chez Alex</span></a>
+    <a class="navbar-brand" href="index.html"><span class="h1 font-weight-bold">Chez Alex</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,7 +32,9 @@
     </div>
   </nav>
 
-  <div class="container px-5 pt-5 border gallery">
+  <div class="container px-5 pt-5 border gallery wholeheight">
+
+    <h1 class="text-white text-center display-3">Photos</h1>
 
     <div class="d-flex justify-content-around flex-wrap">
       <img src="images/calamarfrit.jpg" alt="Calamars frits" class="img-thumbnail my-4">
@@ -43,17 +45,17 @@
     <nav aria-label="photonav">
       <ul class="pagination justify-content-center">
         <li class="page-item">
-          <a class="page-link" href="photos2.html" aria-label="Previous">
+          <a class="text-info page-link" href="photos2.html" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
         <span class="sr-only">Previous</span>
       </a>
         </li>
-        <li class="page-item"><a class="page-link" href="photos.html">1</a></li>
-        <li class="page-item"><a class="page-link" href="photos2.html">2</a></li>
-        <li class="page-item active"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="photos4.html">4</a></li>
+        <li class="page-item"><a class="text-info page-link" href="photos.html">1</a></li>
+        <li class="page-item"><a class="text-info page-link" href="photos2.html">2</a></li>
+        <li class="page-item active"><a id="active" class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="text-info page-link" href="photos4.html">4</a></li>
         <li class="page-item">
-          <a class="page-link" href="photos4.html" aria-label="Next">
+          <a class="text-info page-link" href="photos4.html" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>
       </a>

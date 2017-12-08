@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lobster', cursive;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -25,13 +26,17 @@ html, body {
 }
 
 .padpanel div {
-  min-width: 250px;
+  min-width: 180px;
   min-height: 200px;
 }
 
 .card {
   border-width: 5px;
   margin: 50px 0;
+}
+
+.card-body h4 {
+  margin-bottom: 20px;
 }
 
 footer {
@@ -47,6 +52,10 @@ footer {
   font-size: 22px;
 }
 
+.badge-pill {
+  height: 32px;
+}
+
 .pagination {
   color: white;
 }
@@ -55,7 +64,48 @@ footer {
   max-height: 200px;
 }
 
-.gallery {
-  margin-top: 245px;
-  margin-bottom: 245px;
+.wholeheight {
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+
+.wholeheight2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wholeheight3 {
+  margin-top: 105px;
+  margin-bottom: 105px;
+}
+
+iframe {
+  margin-bottom: 20px;
+}
+
+.titre-form {
+  font-size: 20px;
+}
+
+#champ {
+  overflow-x: hidden;
+}
+
+#active {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+@media screen and (max-width:1199px) {
+  .wholeheight {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .wholeheight3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
